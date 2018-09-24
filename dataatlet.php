@@ -10,6 +10,7 @@
 <th>Tanggal Lahir</th>
 <th>Alamat</th>
 <th>Jenis Kelamin</th>
+<th>Aksi</th>
 </tr>
 </thead>
 <tbody>

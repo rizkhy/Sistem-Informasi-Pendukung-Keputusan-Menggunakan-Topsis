@@ -11,9 +11,9 @@
 <body>
 
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <div class="container-fluid"  style="background: #337ab7;">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">SISTEM PENDUKUNG KEPUTUSAN PENILAIAN SELEKSI ATLET UKM TAEKWONDO </a>
+      <a class="navbar-brand" href="#" style="color: white;">SISTEM PENDUKUNG KEPUTUSAN PENILAIAN SELEKSI ATLET UKM TAEKWONDO </a>
     </div>
 	
 	<!--
@@ -31,10 +31,10 @@
 	-->
 	
 	
-    <ul class="nav navbar-nav navbar-right">
+    <!-- <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
+    </ul> -->
   </div>
 </nav>
  <?php

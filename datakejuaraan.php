@@ -9,6 +9,7 @@
 <th>Nama Kejuaraan</th>
 <th>Tanggal Kejuaraan</th>
 <th>Tempat</th>
+<th>Aksi</th>
 </tr>
 </thead>
 <tbody>
