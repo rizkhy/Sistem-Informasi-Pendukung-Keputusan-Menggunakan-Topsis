@@ -46,15 +46,15 @@
 								while($dalt=mysqli_fetch_assoc($alt)){
 								?>
 						
-	<table   align="left">
+	<table>
 		<tr>
-		<td width="200" >
+		<td width="200">
 							<label ><?php echo $dalt['nama_kriteria']; ?></label>
 							<input type="hidden" name="id_krite<?php echo $i; ?>" value="<?php echo $dalt['id_kriteria']; ?>" />
 		</td>					
-							<div class="col-md-8">
-		<td width="80">					
-							<select name="nilai<?php echo $i; ?>">
+							<div>
+		<td>					
+							<select class="form-control" name="nilai<?php echo $i; ?>">
 							<option value="1">Sangat Kurang Baik</option>
 							<option value="2">Kurang Baik</option>
 							<option value="3">Cukup</option>
@@ -69,7 +69,7 @@
 								}
 								?>
 		<tr>
-		<td colspan=5 align="center">
+		<td colspan="2" align="center">
 		<input type="submit" name="simpan" value="Simpan" class="btn btn-primary">
 		</td>
 		</tr>

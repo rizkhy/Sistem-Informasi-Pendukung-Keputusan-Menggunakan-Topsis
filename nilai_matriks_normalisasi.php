@@ -42,7 +42,7 @@ while($da=mysqli_fetch_assoc($a)){
 	
 		//ambil nilai
 			
-			$n=mysqli_query($kon, "select * from nilai_matrik where id_alternatif='$idalt'");
+			$n=mysqli_query($kon, "select * from nilai_matrik where id_atlet='$idalt'");
 	
 		while($dn=mysqli_fetch_assoc($n)){
 			$idk=$dn['id_kriteria'];

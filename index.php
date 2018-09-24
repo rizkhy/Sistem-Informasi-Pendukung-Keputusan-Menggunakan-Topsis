@@ -122,5 +122,4 @@ if(@$_GET['a']=='kriteria'){
 
 
 </body>
-<?php include "footer.php"; ?>
 </html>
